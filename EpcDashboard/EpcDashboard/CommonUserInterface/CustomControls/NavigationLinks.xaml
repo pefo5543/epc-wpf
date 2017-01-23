@@ -1,0 +1,57 @@
+﻿<UserControl x:Class="EpcDashboard.CommonUserInterface.CustomControls.NavigationLinks"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:EpcDashboard.CommonUserInterface.CustomControls"
+             xmlns:conv="clr-namespace:EpcDashboard.CommonUserInterface.Converters"
+             mc:Ignorable="d"
+             d:DesignHeight="300"
+             d:DesignWidth="300">
+    <UserControl.Resources>
+        <conv:NegatableBooleanToVisibilityConverter x:Key="VisConverter" />
+        <conv:NegatableBooleanToVisibilityConverter x:Key="NegVisConverter"
+                                                    Negate="True" />
+    </UserControl.Resources>
+    <Grid x:Name="NavBar"
+          Grid.Row="2"
+          Visibility="{Binding DataContext.ShowNavBar, Converter={StaticResource VisConverter}, RelativeSource={RelativeSource AncestorType={x:Type Window}}}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
+        <ItemsControl ItemsSource="{Binding DataContext.PageViewModels, RelativeSource={RelativeSource AncestorType={x:Type Window}}}"
+                      Margin="8,0,5,0">
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <UniformGrid Columns="3" />
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <Button x:Name="navBtn"
+                            Content="{Binding MenuName}"
+                            Command="{Binding DataContext.ChangePageCommand, RelativeSource={RelativeSource AncestorType={x:Type Window}}}"
+                            CommandParameter="{Binding}"
+                            Visibility="{Binding ShowAsLink, Converter={StaticResource VisConverter}}"
+                            Margin="5,10,0,2"
+                            BorderBrush="White">
+                        <Button.Resources>
+                            <Style TargetType="Button">
+                                <Setter Property="Background"
+                                        Value="#EAF0F0" />
+                                <Setter Property="Foreground"
+                                        Value="#FF5E5E9A" />
+                                <Setter Property="FontSize"
+                                        Value="14" />
+                                <Setter Property="HorizontalAlignment"
+                                        Value="Center" />
+                                <Setter Property="Width"
+                                        Value="160" />
+                            </Style>
+                        </Button.Resources>
+                    </Button>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+    </Grid>
+</UserControl>

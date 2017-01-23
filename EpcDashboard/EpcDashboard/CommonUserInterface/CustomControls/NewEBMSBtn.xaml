@@ -1,0 +1,25 @@
+﻿<UserControl x:Class="EpcDashboard.CommonUserInterface.CustomControls.NewEBMSBtn"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:EpcDashboard.CommonUserInterface.CustomControls"
+             xmlns:conv="clr-namespace:EpcDashboard.CommonUserInterface.Converters"
+             mc:Ignorable="d"
+             d:DesignHeight="300"
+             d:DesignWidth="300">
+    <UserControl.Resources>
+        <conv:NegatableBooleanToVisibilityConverter x:Key="VisConverter" />
+        <conv:NegatableBooleanToVisibilityConverter x:Key="NegVisConverter"
+                                                    Negate="True" />
+    </UserControl.Resources>
+    <Grid>
+        <Button Content="New EBMS Link"
+                Background="LemonChiffon"
+                Command="{Binding AddEBMSCommand}"
+                Height="25"
+                Width="100"
+                Margin="0,5,0,5"
+                Visibility="{Binding HasEBMS, Converter={StaticResource NegVisConverter}}" />
+    </Grid>
+</UserControl>

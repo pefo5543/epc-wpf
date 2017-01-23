@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="EpcDashboard.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="CentralSourcePath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">I:\\Empiri Product Configurator</Value>
+    </Setting>
+    <Setting Name="ServerAdress" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">WSSE01501.eur.gad.schneider-electric.com</Value>
+    </Setting>
+    <Setting Name="ServerIP" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">10.142.182.40</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

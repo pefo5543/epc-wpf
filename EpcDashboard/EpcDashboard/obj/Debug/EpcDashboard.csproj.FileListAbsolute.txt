@@ -1,0 +1,197 @@
+c:\users\sesa438801\documents\visual studio 2015\Projects\EpcDashboard\EpcDashboard\bin\Debug\EpcDashboard.exe.config
+c:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\obj\Debug\EpcDashboard.csprojResolveAssemblyReference.cache
+c:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\obj\Debug\Customers\CustomerListView.g.cs
+c:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\obj\Debug\MainWindow.g.cs
+c:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\obj\Debug\Orders\OrderView.g.cs
+c:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\obj\Debug\App.g.cs
+c:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\obj\Debug\GeneratedInternalTypeHelper.g.cs
+c:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\obj\Debug\EpcDashboard_MarkupCompile.cache
+c:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\obj\Debug\EpcDashboard_MarkupCompile.lref
+c:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\bin\Debug\EpcDashboard.exe
+c:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\bin\Debug\EpcDashboard.pdb
+c:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\bin\Debug\System.Windows.Interactivity.dll
+c:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\bin\Debug\de\System.Windows.Interactivity.resources.dll
+c:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\bin\Debug\en\System.Windows.Interactivity.resources.dll
+c:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\bin\Debug\es\System.Windows.Interactivity.resources.dll
+c:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+c:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\bin\Debug\it\System.Windows.Interactivity.resources.dll
+c:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+c:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+c:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+c:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+c:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+c:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\obj\Debug\Customers\CustomerListView.baml
+c:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\obj\Debug\MainWindow.baml
+c:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\obj\Debug\Orders\OrderView.baml
+c:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\obj\Debug\EpcDashboard.g.resources
+c:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\obj\Debug\EpcDashboard.Properties.Resources.resources
+c:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\obj\Debug\EpcDashboard.csproj.GenerateResource.Cache
+c:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\obj\Debug\EpcDashboard.exe
+c:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\obj\Debug\EpcDashboard.pdb
+c:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\bin\Debug\EntityFramework.dll
+c:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\bin\Debug\EntityFramework.SqlServer.dll
+c:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\bin\Debug\Epc.Data.dll
+c:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\bin\Debug\Epc.Data.pdb
+c:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\bin\Debug\EntityFramework.xml
+c:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\bin\Debug\EntityFramework.SqlServer.xml
+c:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\bin\Debug\Microsoft.Expression.Interactions.dll
+c:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+c:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+c:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+c:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+c:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+c:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+c:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+c:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\bin\Debug\ru\Microsoft.Expression.Interactions.resources.dll
+c:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+c:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+c:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\obj\Debug\Customers\AddEditCustomerView.g.cs
+c:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\obj\Debug\Customers\AddEditCustomerView.baml
+C:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\obj\Debug\Locations\LocationListView.g.cs
+C:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\obj\Debug\Locations\LocationListView.baml
+C:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\obj\Debug\Tables\TableListView.g.cs
+C:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\EpcDashboard\obj\Debug\Tables\TableListView.baml
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\bin\Debug\EpcDashboard.exe.config
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\EpcDashboard.exe
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\EpcDashboard.pdb
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\bin\Debug\EpcDashboard.exe
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\bin\Debug\EpcDashboard.pdb
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\bin\Debug\Epc.Data.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\bin\Debug\Epc.Data.pdb
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\bin\Debug\ru\Microsoft.Expression.Interactions.resources.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\EpcDashboard.csprojResolveAssemblyReference.cache
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\Customers\AddEditCustomerView.g.cs
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\Customers\CustomerListView.g.cs
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\MainWindow.g.cs
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\App.g.cs
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\EpcDashboard_MarkupCompile.cache
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\EpcDashboard_MarkupCompile.lref
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\Customers\AddEditCustomerView.baml
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\Customers\CustomerListView.baml
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\MainWindow.baml
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\EpcDashboard.g.resources
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\EpcDashboard.Properties.Resources.resources
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\EpcDashboard.csproj.GenerateResource.Cache
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\Settings\SettingsView.g.cs
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\Settings\SettingsView.baml
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\Processes\ProcessListView.g.cs
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\Sites\SiteListView.g.cs
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\Sites\SiteListView.baml
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\Processes\ProcessListView.baml
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\Processes\AddEditProcessView.g.cs
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\Sites\AddEditSiteView.g.cs
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\Processes\AddEditProcessView.baml
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\Sites\AddEditSiteView.baml
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\CommonUserInterface\CustomControls\SearchControl.g.cs
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\CommonUserInterface\CustomControls\SearchControl.baml
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\App.baml
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\Themes\Generic.baml
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\CommonUserInterface\CustomControls\NavigationLinks.g.cs
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\CommonUserInterface\CustomControls\NavigationLinks.baml
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\CommonUserInterface\CustomControls\AddNewBtn.g.cs
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\CommonUserInterface\CustomControls\AddNewBtn.baml
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\CommonUserInterface\CustomControls\SimpleCommandsSearchGrid.g.cs
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\CommonUserInterface\CustomControls\SimpleCommandsSearchGrid.baml
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\CommonUserInterface\CustomControls\NewEBMSBtn.g.cs
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\CommonUserInterface\CustomControls\StartEBMSBtn.g.cs
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\CommonUserInterface\CustomControls\NewEBMSBtn.baml
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\CommonUserInterface\CustomControls\StartEBMSBtn.baml
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\Processes\ScriptFormView.g.cs
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\Processes\ScriptFormView.baml
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\CommonUserInterface\CustomControls\LoadAnimation.g.cs
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\CommonUserInterface\CustomControls\LoadAnimation.baml
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\CommonUserInterface\CustomControls\NewActionBtn.g.cs
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\CommonUserInterface\CustomControls\NewActionBtn.baml
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\CommonUserInterface\CustomControls\ContentHeader.g.cs
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\CommonUserInterface\CustomControls\ContentHeader.baml
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\CommonUserInterface\CustomControls\OpenFolderBtn.g.cs
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\CommonUserInterface\CustomControls\OpenFolderBtn.baml
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\bin\Debug\Resources\LaunchRDP.exe
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\EpcDashboard_Content.g.cs
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\Actions\EBMSs\AddEditEBMSView.g.cs
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\Actions\SelectActionView.g.cs
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\Actions\EBMSs\AddEditEBMSView.baml
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\Actions\SelectActionView.baml
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\CommonUserInterface\CustomControls\SiteActionCommandsGrid.g.cs
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\CommonUserInterface\CustomControls\SiteActionCommandsGrid.baml
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\CommonUserInterface\CustomControls\CustomerActionCommandsGrid.g.cs
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\CommonUserInterface\CustomControls\CustomerActionCommandsGrid.baml
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\CommonUserInterface\CustomControls\CustomerCommandsSearchGrid.g.cs
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\CommonUserInterface\CustomControls\SiteCommandsSearchGrid.g.cs
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\CommonUserInterface\CustomControls\CustomerCommandsSearchGrid.baml
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\CommonUserInterface\CustomControls\SiteCommandsSearchGrid.baml
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\Actions\RDPs\AddEditRDPActionView.g.cs
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\Actions\OpenFolders\AddEditOpenFolderView.g.cs
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\Actions\X3s\AddEditX3ActionView.g.cs
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\Actions\RDPs\AddEditRDPActionView.baml
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\Actions\OpenFolders\AddEditOpenFolderView.baml
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\Actions\X3s\AddEditX3ActionView.baml
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\Actions\VNCs\AddEditVNCActionView.g.cs
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\Actions\VNCs\AddEditVNCActionView.baml
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\bin\Debug\Resources\vnc.exe
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\Actions\EXEs\AddEditExeActionView.g.cs
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\Actions\EXEs\AddEditExeActionView.baml
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\bin\Debug\Xceed.Wpf.DataGrid.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\SitesProcesses\CopySiteProcessView.g.cs
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\obj\Debug\SitesProcesses\CopySiteProcessView.baml
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\bin\Debug\Epc.ExternalRunnerDomain.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\bin\Debug\Epc.ExternalRunnerDomain.pdb
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\bin\Debug\EntityFramework.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\bin\Debug\EntityFramework.xml
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\EpcDashboard\bin\Debug\EntityFramework.SqlServer.xml

@@ -1,0 +1,301 @@
+﻿<UserControl x:Class="EpcDashboard.CommonUserInterface.CustomControls.SiteActionCommandsGrid"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:EpcDashboard.CommonUserInterface.CustomControls"
+             xmlns:control="clr-namespace:EpcDashboard.CommonUserInterface.CustomControls"
+             xmlns:conv="clr-namespace:EpcDashboard.CommonUserInterface.Converters"
+             xmlns:scm="clr-namespace:System.ComponentModel;assembly=WindowsBase"
+             mc:Ignorable="d"
+             d:DesignHeight="300"
+             d:DesignWidth="300">
+    <UserControl.Resources>
+        <!--CollectionView resource for sorting actions alphabetically-->
+        <CollectionViewSource Source="{Binding Actions.X3Actions}"
+                              x:Key="X3Actions">
+            <CollectionViewSource.SortDescriptions>
+                <scm:SortDescription PropertyName="ActionName" />
+            </CollectionViewSource.SortDescriptions>
+        </CollectionViewSource>
+        <CollectionViewSource Source="{Binding Actions.OpenFolderActions}"
+                              x:Key="OpenFolderActions">
+            <CollectionViewSource.SortDescriptions>
+                <scm:SortDescription PropertyName="ActionName" />
+            </CollectionViewSource.SortDescriptions>
+        </CollectionViewSource>
+
+        <CollectionViewSource Source="{Binding Actions.RDPActions}"
+                              x:Key="RDPActions">
+            <CollectionViewSource.SortDescriptions>
+                <scm:SortDescription PropertyName="ActionName" />
+            </CollectionViewSource.SortDescriptions>
+        </CollectionViewSource>
+
+        <CollectionViewSource Source="{Binding Actions.VNCActions}"
+                              x:Key="VNCActions">
+            <CollectionViewSource.SortDescriptions>
+                <scm:SortDescription PropertyName="ActionName" />
+            </CollectionViewSource.SortDescriptions>
+        </CollectionViewSource>
+
+        <CollectionViewSource Source="{Binding Actions.ExeActions}"
+                              x:Key="ExeActions">
+            <CollectionViewSource.SortDescriptions>
+                <scm:SortDescription PropertyName="ActionName" />
+            </CollectionViewSource.SortDescriptions>
+        </CollectionViewSource>
+        <conv:NegatableBooleanToVisibilityConverter x:Key="NegatableBooleanToVisibilityConverter" />
+    </UserControl.Resources>
+
+    <Grid Margin="10,5,10,5">
+        <ScrollViewer VerticalScrollBarVisibility="Auto"
+                      HorizontalScrollBarVisibility="Disabled">
+            <Grid>
+                <WrapPanel Orientation="Horizontal">
+                    <!--EBMS Button-->
+                    <control:StartEBMSBtn DataContext="{Binding}" />
+                    <!--X3 Action Button rendering-->
+                    <ItemsControl ItemsSource="{Binding Source={StaticResource X3Actions}, Mode=OneWay, NotifyOnSourceUpdated=True,UpdateSourceTrigger=PropertyChanged}">
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <WrapPanel Orientation="Horizontal" />
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Button x:Name="X3"
+                                        Content="{Binding ActionName, Mode=OneWay, NotifyOnSourceUpdated=True,  UpdateSourceTrigger=PropertyChanged}"
+                                        Style="{StaticResource StartX3BtnStyle}"
+                                        Tag="{Binding DataContext,RelativeSource={RelativeSource Mode=FindAncestor,AncestorType=ItemsControl}}"
+                                        HorizontalAlignment="Left"
+                                        Height="25"
+                                        Width="110"
+                                        Margin="4,4,4,4">
+
+                                    <Button.InputBindings>
+                                        <!--leftclick runs x3 instance-->
+                                        <MouseBinding Gesture="LeftClick"
+                                                      Command="{Binding DataContext.Actions.StartEX3Command, RelativeSource={RelativeSource AncestorType={x:Type ItemsControl}}}"
+                                                      CommandParameter="{Binding}" />
+                                    </Button.InputBindings>
+                                    <!--right-click opens options context menu-->
+                                    <Button.ContextMenu>
+                                        <ContextMenu>
+                                            <MenuItem Header="Edit"
+                                                      Command="{Binding PlacementTarget.Tag.Actions.EditActionCommand,RelativeSource={RelativeSource Mode=FindAncestor,AncestorType=ContextMenu}}"
+                                                      CommandParameter="{Binding}">
+                                                <MenuItem.Icon>
+                                                    <Image Source="pack://application:,,,/Resources/edit16.png" />
+                                                </MenuItem.Icon>
+                                            </MenuItem>
+                                            <MenuItem Header="Delete"
+                                                      Command="{Binding PlacementTarget.Tag.DeleteActionCommand,RelativeSource={RelativeSource Mode=FindAncestor,AncestorType=ContextMenu}}"
+                                                      CommandParameter="{Binding}">
+                                                <MenuItem.Icon>
+                                                    <Image Source="pack://application:,,,/Resources/delete16.png" />
+                                                </MenuItem.Icon>
+                                            </MenuItem>
+                                        </ContextMenu>
+                                    </Button.ContextMenu>
+                                </Button>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+
+                    <!--Open folder Action Buttons rendering-->
+                    <ItemsControl ItemsSource="{Binding Source={StaticResource OpenFolderActions}, Mode=OneWay, NotifyOnSourceUpdated=True,UpdateSourceTrigger=PropertyChanged}">
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <WrapPanel Orientation="Horizontal" />
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Button x:Name="OpenFolder"
+                                        Content="{Binding ActionName, Mode=OneWay, NotifyOnSourceUpdated=True,  UpdateSourceTrigger=PropertyChanged}"
+                                        Style="{StaticResource OpenFolderActionBtnStyle}"
+                                        Tag="{Binding DataContext,RelativeSource={RelativeSource Mode=FindAncestor,AncestorType=ItemsControl}}"
+                                        HorizontalAlignment="Left"
+                                        Height="25"
+                                        Width="110"
+                                        Margin="4,4,4,4">
+
+                                    <Button.InputBindings>
+                                        <!--leftclick open folder-->
+                                        <MouseBinding Gesture="LeftClick"
+                                                      Command="{Binding DataContext.Actions.MapFolderCommand, RelativeSource={RelativeSource AncestorType={x:Type ItemsControl}}}"
+                                                      CommandParameter="{Binding}" />
+                                    </Button.InputBindings>
+                                    <!--right-click opens options context menu-->
+                                    <Button.ContextMenu>
+                                        <ContextMenu>
+                                            <MenuItem Header="Edit"
+                                                      Command="{Binding PlacementTarget.Tag.Actions.EditActionCommand,RelativeSource={RelativeSource Mode=FindAncestor,AncestorType=ContextMenu}}"
+                                                      CommandParameter="{Binding}">
+                                                <MenuItem.Icon>
+                                                    <Image Source="pack://application:,,,/Resources/edit16.png" />
+                                                </MenuItem.Icon>
+                                            </MenuItem>
+                                            <MenuItem Header="Delete"
+                                                      Command="{Binding PlacementTarget.Tag.DeleteActionCommand,RelativeSource={RelativeSource Mode=FindAncestor,AncestorType=ContextMenu}}"
+                                                      CommandParameter="{Binding}">
+                                                <MenuItem.Icon>
+                                                    <Image Source="pack://application:,,,/Resources/delete16.png" />
+                                                </MenuItem.Icon>
+                                            </MenuItem>
+                                        </ContextMenu>
+                                    </Button.ContextMenu>
+                                </Button>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+
+                    <!--RDP Action Buttons rendering-->
+                    <ItemsControl ItemsSource="{Binding Source={StaticResource RDPActions}, Mode=OneWay, NotifyOnSourceUpdated=True,UpdateSourceTrigger=PropertyChanged}">
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <WrapPanel Orientation="Horizontal" />
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Button x:Name="RDP"
+                                        Content="{Binding ActionName, Mode=OneWay, NotifyOnSourceUpdated=True,  UpdateSourceTrigger=PropertyChanged}"
+                                        Style="{StaticResource RDPActionBtnStyle}"
+                                        Tag="{Binding DataContext,RelativeSource={RelativeSource Mode=FindAncestor,AncestorType=ItemsControl}}"
+                                        HorizontalAlignment="Left"
+                                        Height="25"
+                                        Width="110"
+                                        Margin="4,4,4,4">
+
+                                    <Button.InputBindings>
+                                        <!--leftclick open folder-->
+                                        <MouseBinding Gesture="LeftClick"
+                                                      Command="{Binding DataContext.Actions.RunRDPCommand, RelativeSource={RelativeSource AncestorType={x:Type ItemsControl}}}"
+                                                      CommandParameter="{Binding}" />
+                                    </Button.InputBindings>
+                                    <!--right-click opens options context menu-->
+                                    <Button.ContextMenu>
+                                        <ContextMenu>
+                                            <MenuItem Header="Edit"
+                                                      Command="{Binding PlacementTarget.Tag.Actions.EditActionCommand,RelativeSource={RelativeSource Mode=FindAncestor,AncestorType=ContextMenu}}"
+                                                      CommandParameter="{Binding}">
+                                                <MenuItem.Icon>
+                                                    <Image Source="pack://application:,,,/Resources/edit16.png" />
+                                                </MenuItem.Icon>
+                                            </MenuItem>
+                                            <MenuItem Header="Delete"
+                                                      Command="{Binding PlacementTarget.Tag.DeleteActionCommand,RelativeSource={RelativeSource Mode=FindAncestor,AncestorType=ContextMenu}}"
+                                                      CommandParameter="{Binding}">
+                                                <MenuItem.Icon>
+                                                    <Image Source="pack://application:,,,/Resources/delete16.png" />
+                                                </MenuItem.Icon>
+                                            </MenuItem>
+                                        </ContextMenu>
+                                    </Button.ContextMenu>
+                                </Button>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+
+                    <!--VNC Action Buttons rendering-->
+                    <ItemsControl ItemsSource="{Binding Source={StaticResource VNCActions}, Mode=OneWay, NotifyOnSourceUpdated=True,UpdateSourceTrigger=PropertyChanged}">
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <WrapPanel Orientation="Horizontal" />
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Button x:Name="VNC"
+                                        Content="{Binding ActionName, Mode=OneWay, NotifyOnSourceUpdated=True,  UpdateSourceTrigger=PropertyChanged}"
+                                        Style="{StaticResource VNCActionBtnStyle}"
+                                        Tag="{Binding DataContext,RelativeSource={RelativeSource Mode=FindAncestor,AncestorType=ItemsControl}}"
+                                        HorizontalAlignment="Left"
+                                        Height="25"
+                                        Width="110"
+                                        Margin="4,4,4,4">
+
+                                    <Button.InputBindings>
+                                        <!--leftclick open folder-->
+                                        <MouseBinding Gesture="LeftClick"
+                                                      Command="{Binding DataContext.Actions.RunVNCCommand, RelativeSource={RelativeSource AncestorType={x:Type ItemsControl}}}"
+                                                      CommandParameter="{Binding}" />
+                                    </Button.InputBindings>
+                                    <!--right-click opens options context menu-->
+                                    <Button.ContextMenu>
+                                        <ContextMenu>
+                                            <MenuItem Header="Edit"
+                                                      Command="{Binding PlacementTarget.Tag.Actions.EditActionCommand,RelativeSource={RelativeSource Mode=FindAncestor,AncestorType=ContextMenu}}"
+                                                      CommandParameter="{Binding}">
+                                                <MenuItem.Icon>
+                                                    <Image Source="pack://application:,,,/Resources/edit16.png" />
+                                                </MenuItem.Icon>
+                                            </MenuItem>
+                                            <MenuItem Header="Delete"
+                                                      Command="{Binding PlacementTarget.Tag.DeleteActionCommand,RelativeSource={RelativeSource Mode=FindAncestor,AncestorType=ContextMenu}}"
+                                                      CommandParameter="{Binding}">
+                                                <MenuItem.Icon>
+                                                    <Image Source="pack://application:,,,/Resources/delete16.png" />
+                                                </MenuItem.Icon>
+                                            </MenuItem>
+                                        </ContextMenu>
+                                    </Button.ContextMenu>
+                                </Button>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+
+                    <!--Exe Action Buttons rendering-->
+                    <ItemsControl ItemsSource="{Binding Source={StaticResource ExeActions}, Mode=OneWay, NotifyOnSourceUpdated=True,UpdateSourceTrigger=PropertyChanged}">
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <WrapPanel Orientation="Horizontal" />
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Button x:Name="Exe"
+                                        Content="{Binding ActionName, Mode=OneWay, NotifyOnSourceUpdated=True,  UpdateSourceTrigger=PropertyChanged}"
+                                        Style="{StaticResource ExeActionBtnStyle}"
+                                        Tag="{Binding DataContext,RelativeSource={RelativeSource Mode=FindAncestor,AncestorType=ItemsControl}}"
+                                        HorizontalAlignment="Left"
+                                        Height="25"
+                                        Width="110"
+                                        Margin="4,4,4,4">
+
+                                    <Button.InputBindings>
+                                        <!--leftclick open folder-->
+                                        <MouseBinding Gesture="LeftClick"
+                                                      Command="{Binding DataContext.Actions.RunExeCommand, RelativeSource={RelativeSource AncestorType={x:Type ItemsControl}}}"
+                                                      CommandParameter="{Binding}" />
+                                    </Button.InputBindings>
+                                    <!--right-click opens options context menu-->
+                                    <Button.ContextMenu>
+                                        <ContextMenu>
+                                            <MenuItem Header="Edit"
+                                                      Command="{Binding PlacementTarget.Tag.Actions.EditActionCommand,RelativeSource={RelativeSource Mode=FindAncestor,AncestorType=ContextMenu}}"
+                                                      CommandParameter="{Binding}">
+                                                <MenuItem.Icon>
+                                                    <Image Source="pack://application:,,,/Resources/edit16.png" />
+                                                </MenuItem.Icon>
+                                            </MenuItem>
+                                            <MenuItem Header="Delete"
+                                                      Command="{Binding PlacementTarget.Tag.DeleteActionCommand,RelativeSource={RelativeSource Mode=FindAncestor,AncestorType=ContextMenu}}"
+                                                      CommandParameter="{Binding}">
+                                                <MenuItem.Icon>
+                                                    <Image Source="pack://application:,,,/Resources/delete16.png" />
+                                                </MenuItem.Icon>
+                                            </MenuItem>
+                                        </ContextMenu>
+                                    </Button.ContextMenu>
+                                </Button>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </WrapPanel>
+            </Grid>
+        </ScrollViewer>
+    </Grid>
+</UserControl>

@@ -1,0 +1,89 @@
+﻿<UserControl x:Class="EpcDashboard.Actions.OpenFolders.AddEditOpenFolderView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:EpcDashboard.Actions"
+             xmlns:conv="clr-namespace:EpcDashboard.CommonUserInterface.Converters" 
+             xmlns:controls="clr-namespace:EpcDashboard.CommonUserInterface.CustomControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <UserControl.Resources>
+        <conv:NegatableBooleanToVisibilityConverter x:Key="VisConverter"/>
+        <conv:NegatableBooleanToVisibilityConverter x:Key="NegVisConverter"
+                                                    Negate="True"/>
+        <Style TargetType="TextBox">
+            <Style.Triggers>
+                <Trigger Property="Validation.HasError" Value="true">
+                    <Setter Property="ToolTip"
+                        Value="{Binding RelativeSource={x:Static RelativeSource.Self},
+                        Path=(Validation.Errors).CurrentItem.ErrorContent}" ></Setter>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </UserControl.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <controls:ContentHeader DataContext="{Binding ContentHeader}" Grid.Row="0"/>
+        <Grid x:Name="grid1" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="14,13,9,0" 
+              DataContext="{Binding FolderAction}" Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" MinWidth="88"/>
+                <ColumnDefinition Width="Auto" MinWidth="195.2"/>
+            </Grid.ColumnDefinitions>
+            <Label VerticalAlignment="Center" Grid.Row="0" HorizontalAlignment="Right" Grid.Column="0" Content="Action Name:" Height="25"  Margin="0,0,0.6,10"/>
+            <TextBox x:Name="actionNameTextBox" VerticalAlignment="Center" 
+                     Text="{Binding ActionName, Mode=TwoWay, ValidatesOnNotifyDataErrors=True, UpdateSourceTrigger=PropertyChanged}" 
+                     Grid.Row="0"  Height="23" HorizontalAlignment="Left" Grid.Column="1" Width="190" Margin="0.4,1,0,10"
+                     />
+            <Label VerticalAlignment="Center" Grid.Row="1" HorizontalAlignment="Right" Grid.Column="0" Content="Ip Adress:" Height="25"  Margin="0,0,0.6,10"/>
+            <TextBox x:Name="ipTextBox" VerticalAlignment="Center" 
+                     Text="{Binding IpAdress, Mode=TwoWay, ValidatesOnNotifyDataErrors=True, UpdateSourceTrigger=PropertyChanged}" 
+                     Grid.Row="1"  Height="23" HorizontalAlignment="Left" Grid.Column="1" Width="190" Margin="0.4,1,0,10"
+                     />
+            <Label VerticalAlignment="Center" Grid.Row="2" HorizontalAlignment="Right" Grid.Column="0" Content="Server Username:" Height="25"  Margin="0,0,0.6,10"/>
+            <TextBox x:Name="servUsrNameTextBox" VerticalAlignment="Center" 
+                     Text="{Binding ServerUserName, Mode=TwoWay, ValidatesOnNotifyDataErrors=True, UpdateSourceTrigger=PropertyChanged}" 
+                     Grid.Row="2"  Height="23" HorizontalAlignment="Left" Grid.Column="1" Width="190" Margin="0.4,1,0,10"
+                     />
+            <Label VerticalAlignment="Center" Grid.Row="3" HorizontalAlignment="Right" Grid.Column="0" Content="Server Password:" Height="25" Margin="0,0,0.6,10"/>
+            <TextBox x:Name="servPasswordTextBox" VerticalAlignment="Center" 
+                     Text="{Binding ServerPassword, Mode=TwoWay, ValidatesOnNotifyDataErrors=True, UpdateSourceTrigger=PropertyChanged}" 
+                     Grid.Row="3"  Height="23" HorizontalAlignment="Left" Grid.Column="1" Width="190" Margin="0.4,1,0,10"
+                     />
+        </Grid>
+        <Grid Grid.Row="2" Margin="45,7.4,45,-7.2" HorizontalAlignment="Center">
+            <Button Content="Save"
+                    Command="{Binding SaveCommand}"
+                    Visibility="{Binding EditMode, Converter={StaticResource VisConverter}}"
+                    HorizontalAlignment="Left"
+                    Margin="25,5,0,0"
+                    VerticalAlignment="Top"
+                    Width="75"/>
+            <Button Content="Add"
+                    Command="{Binding SaveCommand}"
+                    Visibility="{Binding EditMode, Converter={StaticResource NegVisConverter}}"
+                    HorizontalAlignment="Left"
+                    Margin="25,5,0,0"
+                    VerticalAlignment="Top"
+                    Width="75"/>
+            <Button Content="Cancel"
+                    Command="{Binding CancelCommand}"
+                    HorizontalAlignment="Left"
+                    Margin="150,5,0,0"
+                    VerticalAlignment="Top"
+                    Width="75"/>
+        </Grid>
+    </Grid>
+</UserControl>

@@ -1,0 +1,176 @@
+﻿<Window x:Class="EpcDashboard.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        xmlns:ei="http://schemas.microsoft.com/expression/2010/interactions"
+        xmlns:helpers="clr-namespace:EpcDashboard.MVVMHelpers"
+        xmlns:cust="clr-namespace:EpcDashboard.Customers"
+        xmlns:site="clr-namespace:EpcDashboard.Sites"
+        xmlns:proc="clr-namespace:EpcDashboard.Processes"
+        xmlns:set="clr-namespace:EpcDashboard.Settings"
+        xmlns:ebms="clr-namespace:EpcDashboard.Actions.EBMSs"
+        xmlns:action="clr-namespace:EpcDashboard.Actions"
+        xmlns:folderaction="clr-namespace:EpcDashboard.Actions.OpenFolders"
+        xmlns:rdpaction="clr-namespace:EpcDashboard.Actions.RDPs"
+        xmlns:vncaction="clr-namespace:EpcDashboard.Actions.VNCs"
+        xmlns:x3action="clr-namespace:EpcDashboard.Actions.X3s"
+        xmlns:exeaction="clr-namespace:EpcDashboard.Actions.EXEs"
+        xmlns:copy="clr-namespace:EpcDashboard.SitesProcesses"
+        xmlns:conv="clr-namespace:EpcDashboard.CommonUserInterface.Converters"
+        xmlns:controls="clr-namespace:EpcDashboard.CommonUserInterface.CustomControls"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        mc:Ignorable="d"
+        MinWidth="460"
+        MinHeight="300"
+        WindowStartupLocation="CenterScreen"
+        Title="Empiri Product Configurator"
+        Height="600"
+        Width="770"
+        Icon="pack://application:,,,/Resources/star16_32_64.ico">
+
+    <Window.Resources>
+        <conv:StatusNameConverter x:Key="StatusNameConverter" />
+        <conv:StatusImageConverter x:Key="StatusImageConverter" />
+        <conv:NegatableBooleanToVisibilityConverter x:Key="NegatableBooleanToVisibilityConverter" />
+        <DataTemplate DataType="{x:Type cust:CustomerListViewModel}">
+            <cust:CustomerListView />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type cust:AddEditCustomerViewModel}">
+            <cust:AddEditCustomerView />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type site:SiteListViewModel}">
+            <site:SiteListView />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type site:AddEditSiteViewModel}">
+            <site:AddEditSiteView />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type proc:ProcessListViewModel}">
+            <proc:ProcessListView />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type proc:AddEditProcessViewModel}">
+            <proc:AddEditProcessView />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type proc:ScriptFormViewModel}">
+            <proc:ScriptFormView />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type set:SettingsViewModel}">
+            <set:SettingsView />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type ebms:AddEditEBMSViewModel}">
+            <ebms:AddEditEBMSView />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type action:SelectActionViewModel}">
+            <action:SelectActionView />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type x3action:AddEditX3ActionViewModel}">
+            <x3action:AddEditX3ActionView />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type folderaction:AddEditOpenFolderViewModel}">
+            <folderaction:AddEditOpenFolderView />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type rdpaction:AddEditRDPActionViewModel}">
+            <rdpaction:AddEditRDPActionView />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vncaction:AddEditVNCActionViewModel}">
+            <vncaction:AddEditVNCActionView />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type exeaction:AddEditExeActionViewModel}">
+            <exeaction:AddEditExeActionView />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type copy:CopySiteProcessViewModel}">
+            <copy:CopySiteProcessView />
+        </DataTemplate>
+    </Window.Resources>
+    <xctk:BusyIndicator IsBusy="{Binding IsBusy}">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <!--Menu bar-->
+            <DockPanel DockPanel.Dock="Top"
+                       KeyboardNavigation.TabNavigation="None">
+                <Menu KeyboardNavigation.TabNavigation="Cycle"
+                      IsMainMenu="True"
+                      Background="#cde69c">
+                    <MenuItem Header="_File">
+                        <MenuItem Command="{Binding SettingsCommand}"
+                                  Header="S_ettings" />
+                        <MenuItem Header="E_xit"
+                                  Command="{Binding ExitCommand}" />
+                    </MenuItem>
+                    <!--<MenuItem Header="_Help" />-->
+                </Menu>
+            </DockPanel>
+
+            <!--Notification messages-->
+            <Grid Grid.Row="1"
+                  Background="LimeGreen">
+                <ContentControl FontSize="13"
+                                Foreground="WhiteSmoke">
+                    <i:Interaction.Behaviors>
+                        <helpers:ShowNotificationMessageBehaviour Message="{Binding NotificationMessage}" />
+                    </i:Interaction.Behaviors>
+                </ContentControl>
+            </Grid>
+
+            <!--Main content-->
+            <Grid x:Name="MainContent"
+                  Grid.Row="3"
+                  Margin="0">
+                <ContentControl Content="{Binding CurrentViewModel}" />
+            </Grid>
+
+            <!--Server status bar-->
+            <DockPanel KeyboardNavigation.TabNavigation="None"
+                       Grid.Row="4">
+                <Label Grid.Column="0"
+                       BorderThickness="0.5,1,0,0"
+                       BorderBrush="LightSlateGray">
+                    <Label.Content>
+                        <Image MaxHeight="16"
+                               MaxWidth="16"
+                               Source="{Binding ServerIsAlive, Converter={StaticResource StatusImageConverter}}"
+                               Margin="0" />
+                    </Label.Content>
+                </Label>
+                <Label Grid.Column="1"
+                       FontSize="11"
+                       Content="Server status"
+                       BorderThickness="0,1,0.5,0"
+                       BorderBrush="LightSlateGray"></Label>
+                <Border BorderThickness="0.5,1,0.5,0"
+                        BorderBrush="LightSlateGray">
+                    <TextBlock Grid.Column="2"
+                               FontSize="11"
+                               VerticalAlignment="Center"
+                               Margin="5,0,5,0">
+                        <TextBlock.Text>
+                            <MultiBinding Converter="{StaticResource StatusNameConverter}">
+                                <Binding Path="UserSettings.FirstName"
+                                         Mode="TwoWay"
+                                         UpdateSourceTrigger="PropertyChanged"></Binding>
+                                <Binding Path="UserSettings.LastName"
+                                         Mode="TwoWay"
+                                         UpdateSourceTrigger="PropertyChanged"></Binding>
+                                <Binding Path="UserSettings.UserId"
+                                         Mode="TwoWay"
+                                         UpdateSourceTrigger="PropertyChanged"></Binding>
+                            </MultiBinding>
+                        </TextBlock.Text>
+                    </TextBlock>
+                </Border>
+                <Label Grid.Column="3"
+                       BorderThickness="0.5,1,0,0"
+                       BorderBrush="LightSlateGray"
+                       HorizontalAlignment="Stretch"></Label>
+            </DockPanel>
+        </Grid>
+    </xctk:BusyIndicator>
+</Window>

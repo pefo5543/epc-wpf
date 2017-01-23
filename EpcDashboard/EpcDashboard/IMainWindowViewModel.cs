@@ -1,0 +1,6 @@
+﻿namespace EpcDashboard
+{
+    interface IMainWindowViewModel
+    {
+    }
+}

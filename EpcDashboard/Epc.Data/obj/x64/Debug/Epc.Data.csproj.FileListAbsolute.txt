@@ -1,0 +1,14 @@
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\Epc.Data\bin\x64\Debug\Epc.Data.dll.config
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\Epc.Data\bin\x64\Debug\Epc.Data.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\Epc.Data\bin\x64\Debug\Epc.Data.pdb
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\Epc.Data\bin\x64\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\Epc.Data\bin\x64\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\Epc.Data\bin\x64\Debug\Microsoft.Practices.Unity.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\Epc.Data\bin\x64\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\Epc.Data\bin\x64\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\Epc.Data\bin\x64\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\Epc.Data\bin\x64\Debug\Microsoft.Practices.Unity.xml
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\Epc.Data\bin\x64\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\Epc.Data\bin\x64\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\Epc.Data\obj\x64\Debug\Epc.Data.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\Epc.Data\obj\x64\Debug\Epc.Data.pdb

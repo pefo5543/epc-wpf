@@ -1,0 +1,16 @@
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\ChildDomainEpcDashboard\bin\Debug\ChildDomainEpcDashboard.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\ChildDomainEpcDashboard\bin\Debug\ChildDomainEpcDashboard.pdb
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\ChildDomainEpcDashboard\bin\Debug\Epc.Data.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\ChildDomainEpcDashboard\bin\Debug\EntityFramework.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\ChildDomainEpcDashboard\bin\Debug\Epc.Data.pdb
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\ChildDomainEpcDashboard\bin\Debug\EntityFramework.xml
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\ChildDomainEpcDashboard\obj\Debug\Epc.ExternalRunnerDomain.csprojResolveAssemblyReference.cache
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\ChildDomainEpcDashboard\obj\Debug\ChildDomainEpcDashboard.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\ChildDomainEpcDashboard\obj\Debug\ChildDomainEpcDashboard.pdb
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\X3RunnerDomain\bin\Debug\Epc.Data.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\X3RunnerDomain\bin\Debug\Epc.Data.pdb
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\X3RunnerDomain\obj\Debug\Epc.ExternalRunnerDomain.csprojResolveAssemblyReference.cache
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\X3RunnerDomain\bin\Debug\Epc.ExternalRunnerDomain.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\X3RunnerDomain\bin\Debug\Epc.ExternalRunnerDomain.pdb
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\X3RunnerDomain\obj\Debug\Epc.ExternalRunnerDomain.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\X3RunnerDomain\obj\Debug\Epc.ExternalRunnerDomain.pdb

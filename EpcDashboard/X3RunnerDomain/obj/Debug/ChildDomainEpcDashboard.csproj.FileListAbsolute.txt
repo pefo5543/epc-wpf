@@ -1,0 +1,9 @@
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\ChildDomainEpcDashboard\bin\Debug\ChildDomainEpcDashboard.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\ChildDomainEpcDashboard\bin\Debug\ChildDomainEpcDashboard.pdb
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\ChildDomainEpcDashboard\obj\Debug\ChildDomainEpcDashboard.csprojResolveAssemblyReference.cache
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\ChildDomainEpcDashboard\obj\Debug\ChildDomainEpcDashboard.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\ChildDomainEpcDashboard\obj\Debug\ChildDomainEpcDashboard.pdb
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\ChildDomainEpcDashboard\bin\Debug\Epc.Data.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\ChildDomainEpcDashboard\bin\Debug\EntityFramework.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\ChildDomainEpcDashboard\bin\Debug\Epc.Data.pdb
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\ChildDomainEpcDashboard\bin\Debug\EntityFramework.xml

@@ -1,0 +1,7 @@
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\X3RunnerDomain\bin\Release\Epc.Data.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\X3RunnerDomain\bin\Release\Epc.Data.pdb
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\X3RunnerDomain\obj\Release\Epc.ExternalRunnerDomain.csprojResolveAssemblyReference.cache
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\X3RunnerDomain\bin\Release\Epc.ExternalRunnerDomain.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\X3RunnerDomain\bin\Release\Epc.ExternalRunnerDomain.pdb
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\X3RunnerDomain\obj\Release\Epc.ExternalRunnerDomain.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\X3RunnerDomain\obj\Release\Epc.ExternalRunnerDomain.pdb

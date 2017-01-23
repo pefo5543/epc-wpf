@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="EpcDashboard.MainWindowViewModel" BaseTypeListCollapsed="true">
+    <Position X="5" Y="0.5" Width="3" />
+    <Members>
+      <Field Name="_changePageCommand" Hidden="true" />
+      <Field Name="_CurrentViewModel" Hidden="true" />
+      <Field Name="_data" Hidden="true" />
+      <Field Name="_isProcessing" Hidden="true" />
+      <Field Name="_isProcessingBlockUI" Hidden="true" />
+      <Field Name="_mainRepo" Hidden="true" />
+      <Field Name="_pageViewModels" Hidden="true" />
+      <Field Name="_serverIsAlive" Hidden="true" />
+      <Field Name="_settingsRepo" Hidden="true" />
+      <Field Name="_showNavBar" Hidden="true" />
+      <Field Name="_timer" Hidden="true" />
+      <Field Name="_userSettings" Hidden="true" />
+      <Property Name="ChangePageCommand" Hidden="true" />
+      <Method Name="ChangeViewModel" Hidden="true" />
+      <Method Name="Cleanup" Hidden="true" />
+      <Method Name="ConstructViewModelInstances" Hidden="true" />
+      <Property Name="CurrentViewModel" Hidden="true" />
+      <Method Name="CustomerSaved" Hidden="true" />
+      <Property Name="Data" Hidden="true" />
+      <Method Name="EBMSSaved" Hidden="true" />
+      <Method Name="EventMethods" Hidden="true" />
+      <Property Name="ExitCommand" Hidden="true" />
+      <Method Name="GetData" Hidden="true" />
+      <Method Name="HideChildNavigationLinks" Hidden="true" />
+      <Method Name="InitializeFileEventWatcher" Hidden="true" />
+      <Method Name="InitializeNavigation" Hidden="true" />
+      <Method Name="InitLoad" Hidden="true" />
+      <Property Name="IsProcessing" Hidden="true" />
+      <Property Name="IsProcessingBlockUI" Hidden="true" />
+      <Method Name="MainWindowViewModel" Hidden="true" />
+      <Method Name="MapFolder" Hidden="true" />
+      <Method Name="MergeOperation" Hidden="true" />
+      <Method Name="NavFromSettingsToPreviousViewModel" Hidden="true" />
+      <Method Name="NavToActiveViewModel" Hidden="true" />
+      <Method Name="NavToActiveWithNotificationMessage" Hidden="true" />
+      <Method Name="NavToAddAction" Hidden="true" />
+      <Method Name="NavToAddCustomer" Hidden="true" />
+      <Method Name="NavToAddEBMS" Hidden="true" />
+      <Method Name="NavToAddEditEBMS" Hidden="true" />
+      <Method Name="NavToAddProcess" Hidden="true" />
+      <Method Name="NavToAddSite" Hidden="true" />
+      <Method Name="NavToCopy" Hidden="true" />
+      <Method Name="NavToCustomerList" Hidden="true" />
+      <Method Name="NavToEditAction" Hidden="true" />
+      <Method Name="NavToEditCustomer" Hidden="true" />
+      <Method Name="NavToEditEBMS" Hidden="true" />
+      <Method Name="NavToEditProcess" Hidden="true" />
+      <Method Name="NavToEditSite" Hidden="true" />
+      <Method Name="NavToProcessList" Hidden="true" />
+      <Method Name="NavToScriptView" Hidden="true" />
+      <Method Name="NavToSelectAction" Hidden="true" />
+      <Method Name="NavToSiteList" Hidden="true" />
+      <Method Name="OnChangedCentralFile" Hidden="true" />
+      <Method Name="OnExit" Hidden="true" />
+      <Method Name="OnOpenSettings" Hidden="true" />
+      <Method Name="OpenEBMS" Hidden="true" />
+      <Property Name="PageViewModels" Hidden="true" />
+      <Method Name="PingServer" Hidden="true" />
+      <Method Name="RunExe" Hidden="true" />
+      <Method Name="RunRDP" Hidden="true" />
+      <Method Name="RunVNC" Hidden="true" />
+      <Property Name="ServerIsAlive" Hidden="true" />
+      <Method Name="SetActivePageViewModel" Hidden="true" />
+      <Method Name="SetLinkablePageViewModel" Hidden="true" />
+      <Property Name="SettingsCommand" Hidden="true" />
+      <Method Name="SettingsSaved" Hidden="true" />
+      <Method Name="SetupEpc" Hidden="true" />
+      <Method Name="SetupWatcher" Hidden="true" />
+      <Property Name="ShowNavBar" Hidden="true" />
+      <Method Name="StartEX3" Hidden="true" />
+      <Method Name="StartTimer" Hidden="true" />
+      <Method Name="StartWatcher" Hidden="true" />
+      <Property Name="Timer" Hidden="true" />
+      <Method Name="timer_Tick" Hidden="true" />
+      <Method Name="TurnOffUIProgressElement" Hidden="true" />
+      <Method Name="TurnOnUIProgressElement" Hidden="true" />
+      <Method Name="UpdateCollection" Hidden="true" />
+      <Property Name="UserSettings" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>WiiCAAUGFUEkAcUriOFYAjCggZCYApT8QgeAB/BEDQQ=</HashCode>
+      <FileName>MainWindowViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="EpcDashboard.Sites.SiteListViewModel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3.75" Y="7" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>kAEAAQhCAECU0IUCJAAAQBAAgQARgAUBQAAIAAIARAA=</HashCode>
+      <FileName>Sites\SiteListViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="EpcDashboard.Sites.AddEditSiteViewModel" Collapsed="true">
+    <Position X="0.5" Y="7" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EABUAAAAQAAAgAEAAAAIQAACgBAAgAAACACAgAAAAAA=</HashCode>
+      <FileName>Sites\AddEditSiteViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EpcDashboard.SitesProcesses.CopySiteProcessViewModel" Collapsed="true">
+    <Position X="7.25" Y="11" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>UABAADAQQAIAggAwAgAAQCAAQIgAAIAAAAAKAAAAAAA=</HashCode>
+      <FileName>SitesProcesses\CopySiteProcessViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EpcDashboard.Settings.SettingsViewModel" Collapsed="true">
+    <Position X="0.5" Y="13.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>UAJQICAAYAAAAAEAAAAAQAQCAAEAAAQAgAAEAADEAAA=</HashCode>
+      <FileName>Settings\SettingsViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EpcDashboard.Processes.AddEditProcessViewModel" Collapsed="true">
+    <Position X="0.5" Y="11" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EABUAAAAQAAAAIEAAgAgQAACAAAIIAAACgAAAAAIAAA=</HashCode>
+      <FileName>Processes\AddEditProcessViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EpcDashboard.Processes.ProcessListViewModel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3.75" Y="11" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ECAQAQAAIUCQkYECIAAEQBIAIAARBAQBAQoIAAKAYAA=</HashCode>
+      <FileName>Processes\ProcessListViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="EpcDashboard.Processes.ScriptFormViewModel" Collapsed="true">
+    <Position X="0.5" Y="12.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>QIJAAKAAQAAAEAAAAhAAAAACAIAAAAAAAACAAAAgAAA=</HashCode>
+      <FileName>Processes\ScriptFormViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EpcDashboard.Customers.AddEditCustomerViewModel" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EAFUIAAAQQAAAAEAAABQQAQCAACAAAAACAAAAAAAgAA=</HashCode>
+      <FileName>Customers\AddEditCustomerViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EpcDashboard.Customers.CustomerListViewModel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3.75" Y="5.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EAEACEAhAAiAQgECIAAQQBBAAAgAAEAAAAACAAJAAAg=</HashCode>
+      <FileName>Customers\CustomerListViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="EpcDashboard.Actions.X3s.AddEditX3ActionViewModel" Collapsed="true">
+    <Position X="10.5" Y="8.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EABAAAAIQAAAAAAMAAIIQAACCAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Actions\X3s\AddEditX3ActionViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EpcDashboard.Actions.VNCs.AddEditVNCActionViewModel" Collapsed="true">
+    <Position X="3.75" Y="9.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EABAAAAAQEAAAAAEAABCQAACAAAAAAAAAABAAAQAAAA=</HashCode>
+      <FileName>Actions\VNCs\AddEditVNCActionViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EpcDashboard.Actions.RDPs.AddEditRDPActionViewModel" Collapsed="true">
+    <Position X="3.75" Y="8.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EAFAAAEAQAAAAAAEAAAAQAACAAAAAAAAAAgEAAAAAAg=</HashCode>
+      <FileName>Actions\RDPs\AddEditRDPActionViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EpcDashboard.Actions.OpenFolders.AddEditOpenFolderViewModel" Collapsed="true">
+    <Position X="7.25" Y="9.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EABEAAAAQAAAAAAEAAAAQAQCAAAEAAAIAAIAAAAAAAA=</HashCode>
+      <FileName>Actions\OpenFolders\AddEditOpenFolderViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EpcDashboard.Actions.EXEs.AddEditExeActionViewModel" Collapsed="true">
+    <Position X="7.25" Y="8.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EABQAAAAQAAAAAEEAAAAQAgGAAAgAAAwAAAAACAACAA=</HashCode>
+      <FileName>Actions\EXEs\AddEditExeActionViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EpcDashboard.Actions.EBMSs.AddEditEBMSViewModel" Collapsed="true">
+    <Position X="0.5" Y="9.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EABAAIQEQAAABAAABAAgQAACAABAAEAAAAAAAAAEAAA=</HashCode>
+      <FileName>Actions\EBMSs\AddEditEBMSViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EpcDashboard.Actions.ActionListViewModel" Collapsed="true">
+    <Position X="10.5" Y="9.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAIyEUAAAAIRAFAMAEAAAAAwABAAAlkAIIEgEAEABAA=</HashCode>
+      <FileName>Actions\ActionListViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EpcDashboard.Actions.SelectActionViewModel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="8.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>UAEAACAAQAAAgBAACAAAAAAAAAAAACAAAAAIAAACAAA=</HashCode>
+      <FileName>Actions\SelectActionViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

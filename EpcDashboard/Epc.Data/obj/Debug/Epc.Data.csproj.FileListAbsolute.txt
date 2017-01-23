@@ -1,0 +1,33 @@
+c:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\Epc.Data\bin\Debug\Epc.Data.dll.config
+c:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\Epc.Data\bin\Debug\Epc.Data.dll
+c:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\Epc.Data\bin\Debug\Epc.Data.pdb
+c:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\Epc.Data\bin\Debug\EntityFramework.dll
+c:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\Epc.Data\bin\Debug\EntityFramework.SqlServer.dll
+c:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\Epc.Data\bin\Debug\EntityFramework.xml
+c:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\Epc.Data\bin\Debug\EntityFramework.SqlServer.xml
+c:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\Epc.Data\obj\Debug\Epc.Data.csprojResolveAssemblyReference.cache
+c:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\Epc.Data\obj\Debug\Epc.Data.dll
+c:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\Epc.Data\obj\Debug\Epc.Data.pdb
+C:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\Epc.Data\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\Epc.Data\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\Epc.Data\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\Epc.Data\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\Epc.Data\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\Epc.Data\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\Epc.Data\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\Epc.Data\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\Epc.Data\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\Epc.Data\bin\Debug\Epc.Data.dll.config
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\Epc.Data\bin\Debug\Epc.Data.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\Epc.Data\bin\Debug\Epc.Data.pdb
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\Epc.Data\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\Epc.Data\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\Epc.Data\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\Epc.Data\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\Epc.Data\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\Epc.Data\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\Epc.Data\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\Epc.Data\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\Epc.Data\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\Epc.Data\obj\Debug\Epc.Data.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\Epc.Data\obj\Debug\Epc.Data.pdb

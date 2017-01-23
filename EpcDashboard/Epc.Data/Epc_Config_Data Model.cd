@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Epc.Data.Models.EPC_Config_Data">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <Members>
+      <Field Name="_customers" Hidden="true" />
+      <Field Name="_serverPath" Hidden="true" />
+      <Field Name="_version" Hidden="true" />
+      <Method Name="CollectionChanged" Hidden="true" />
+      <Method Name="EPC_Config_Data" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>IAEAAAAQAAAAIAAAAAAAgAAAAAAAAEAEAAAAAAAAAAA=</HashCode>
+      <FileName>Models\EPC_Config_Data.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Epc.Data.Models.NameBaseModel">
+    <Position X="5" Y="2.75" Width="1.5" />
+    <Members>
+      <Field Name="_isSelected" Hidden="true" />
+      <Field Name="_name" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAEAAAAAAAAASAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\NameBaseModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Epc.Data.Models.Process">
+    <Position X="7.25" Y="5.5" Width="1.5" />
+    <Members>
+      <Field Name="_argument" Hidden="true" />
+      <Field Name="_ping" Hidden="true" />
+      <Field Name="_processIcon" Hidden="true" />
+      <Field Name="_program" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAMAAAAAgBAAAAIAAIAAAAAAgAAA=</HashCode>
+      <FileName>Models\Process.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Epc.Data.Models.Site">
+    <Position X="5" Y="5.5" Width="1.5" />
+    <Members>
+      <Field Name="_customerName" Hidden="true" />
+      <Field Name="_ebms" Hidden="true" />
+      <Field Name="_ExeActions" Hidden="true" />
+      <Field Name="_folderActions" Hidden="true" />
+      <Field Name="_ipAdress" Hidden="true" />
+      <Field Name="_isOnline" Hidden="true" />
+      <Field Name="_processes" Hidden="true" />
+      <Field Name="_rdpActions" Hidden="true" />
+      <Field Name="_siteIcon" Hidden="true" />
+      <Field Name="_vncActions" Hidden="true" />
+      <Field Name="_x3Actions" Hidden="true" />
+      <Method Name="CollectionChanged" Hidden="true" />
+      <Method Name="Site" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAgAgIMAAAAAEAgAAAIgAAgQACgAF0BAAEwAAAAQAA=</HashCode>
+      <FileName>Models\Site.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Epc.Data.Models.Customer">
+    <Position X="2.75" Y="5.5" Width="1.5" />
+    <Members>
+      <Field Name="_color" Hidden="true" />
+      <Field Name="_customerIcon" Hidden="true" />
+      <Field Name="_ebms" Hidden="true" />
+      <Field Name="_sites" Hidden="true" />
+      <Method Name="CollectionChanged" Hidden="true" />
+      <Method Name="Customer" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAIAEAAAIAAQAAAAAgAAAAAAEAAAAAAAIgAAAQAA=</HashCode>
+      <FileName>Models\Customer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Epc.Data.Models.BaseModel" Collapsed="true">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAIAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\BaseModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Epc.Data.Models.ActionModels.VNC" Collapsed="true">
+    <Position X="15" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Models\ActionModels\VNC.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Epc.Data.Models.ActionModels.ServerBase">
+    <Position X="17.25" Y="3.75" Width="1.5" />
+    <Members>
+      <Field Name="_ipAdress" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ActionModels\ServerBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Epc.Data.Models.ActionModels.RDP" Collapsed="true">
+    <Position X="17" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAgAAAAAAAAACgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ActionModels\RDP.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Epc.Data.Models.ActionModels.OpenFolder" Collapsed="true">
+    <Position X="21" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ActionModels\OpenFolder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Epc.Data.Models.ActionModels.Exe" Collapsed="true">
+    <Position X="13" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAYAAAAABAAAA=</HashCode>
+      <FileName>Models\ActionModels\Exe.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Epc.Data.Models.ActionModels.EX3" Collapsed="true">
+    <Position X="11.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ActionModels\EX3.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Epc.Data.Models.ActionModels.EBMS" Collapsed="true">
+    <Position X="9.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ActionModels\EBMS.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Epc.Data.Models.ActionModels.DbInfo">
+    <Position X="10.5" Y="3.75" Width="1.5" />
+    <Members>
+      <Field Name="_dbName" Hidden="true" />
+      <Field Name="_dbPassword" Hidden="true" />
+      <Field Name="_dbUserName" Hidden="true" />
+      <Field Name="_ipAdress" Hidden="true" />
+      <Method Name="DbInfo" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAEAAIEAAAAAAAAACAAAAAAAAAgAAAAAAAABQCAAAA=</HashCode>
+      <FileName>Models\ActionModels\DbInfo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Epc.Data.Models.ActionModels.CredentialsBase" Collapsed="true">
+    <Position X="19" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAACAQIAAAAAAAA=</HashCode>
+      <FileName>Models\ActionModels\CredentialsBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Epc.Data.Models.ActionModels.BaseAction">
+    <Position X="15" Y="1.75" Width="1.5" />
+    <Members>
+      <Field Name="_actionName" Hidden="true" />
+      <Field Name="_actionType" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAEEAAAAAA=</HashCode>
+      <FileName>Models\ActionModels\BaseAction.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

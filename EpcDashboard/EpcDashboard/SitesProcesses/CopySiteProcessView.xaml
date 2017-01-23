@@ -1,0 +1,123 @@
+﻿<UserControl x:Class="EpcDashboard.SitesProcesses.CopySiteProcessView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:EpcDashboard.SitesProcesses"
+             xmlns:conv="clr-namespace:EpcDashboard.CommonUserInterface.Converters"
+             xmlns:control="clr-namespace:EpcDashboard.CommonUserInterface.CustomControls"
+             mc:Ignorable="d"
+             d:DesignHeight="300"
+             d:DesignWidth="300">
+    <UserControl.Resources>
+        <conv:NegatableBooleanToVisibilityConverter x:Key="NegVisConverter"
+                                                    Negate="True" />
+        <conv:CopyCustomerNameConverter x:Key="CustomerNameConverter" />
+    </UserControl.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <control:ContentHeader DataContext="{Binding ContentHeader}"
+                               Grid.Row="0" />
+        <StackPanel Orientation="Vertical"
+                    Grid.Row="1">
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="420" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <!--HEADER-->
+                <Grid Grid.Row="0"
+                      Margin="0,10,0,4">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="150" />
+                        <ColumnDefinition Width="150" />
+                    </Grid.ColumnDefinitions>
+
+                    <!--Table header-->
+                    <TextBlock Grid.Column="0"
+                               TextAlignment="Center"
+                               Text="Customer"
+                               FontWeight="Bold" />
+
+                    <TextBlock Grid.Column="1"
+                               TextAlignment="Center"
+                               Text="Site"
+                               FontWeight="Bold"
+                               Visibility="{Binding IsSite, Converter={StaticResource NegVisConverter}}" />
+
+                </Grid>
+                <!--DATA-->
+                <ListBox SelectionMode="Multiple"
+                         ItemsSource="{Binding TableData}"
+                         x:Name="copyList"
+                         Cursor="Hand"
+                         ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                         Grid.Row="1">
+                    <ListBox.ItemContainerStyle>
+                        <Style TargetType="{x:Type ListBoxItem}">
+                            <Setter Property="IsSelected"
+                                    Value="{Binding Mode=TwoWay, Path=IsSelected}" />
+                            <Setter Property="BorderBrush"
+                                    Value="LightGray" />
+                            <Setter Property="BorderThickness"
+                                    Value="0,0,0,1" />
+                            <Setter Property="Background"
+                                    Value="#eef9f0" />
+                        </Style>
+                    </ListBox.ItemContainerStyle>
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Grid Tag="{Binding DataContext,RelativeSource={RelativeSource Mode=FindAncestor,AncestorType=ListBox}}">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="150" />
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+
+                                <!--Customer-->
+                                <Label Grid.Column="0"
+                                       HorizontalAlignment="Left">
+                                    <Label.Content>
+                                        <MultiBinding Converter="{StaticResource CustomerNameConverter}">
+                                            <Binding Path="DataContext.IsSite"
+                                                     RelativeSource="{RelativeSource AncestorType={x:Type ListBox}}"></Binding>
+                                            <Binding Path=""></Binding>
+                                        </MultiBinding>
+                                    </Label.Content>
+                                </Label>
+                                <!--Site-->
+                                <Label Grid.Column="1"
+                                       HorizontalAlignment="Left"
+                                       Content="{Binding Path=Name}"
+                                       Visibility="{Binding DataContext.IsSite, RelativeSource={RelativeSource AncestorType={x:Type ListBox}}, Converter={StaticResource NegVisConverter}}" />
+                            </Grid>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ListBox>
+            </Grid>
+        </StackPanel>
+
+        <Grid Grid.Row="2"
+              Margin="0,3,0,3"
+              HorizontalAlignment="Center">
+            <Button Content="Copy"
+                    CommandParameter="{Binding TableData}"
+                    Command="{Binding Path=CopyCommand}"
+                    HorizontalAlignment="Left"
+                    Margin="25,5,0,0"
+                    VerticalAlignment="Top"
+                    Width="75" />
+            <Button Content="Cancel"
+                    Command="{Binding CancelCommand}"
+                    HorizontalAlignment="Left"
+                    Margin="150,5,0,0"
+                    VerticalAlignment="Top"
+                    Width="75" />
+        </Grid>
+    </Grid>
+</UserControl>

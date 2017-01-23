@@ -1,0 +1,59 @@
+C:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\Epc.Tests\obj\Debug\Epc.Tests.csprojResolveAssemblyReference.cache
+C:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\Epc.Tests\bin\Debug\Epc.Tests.dll
+C:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\Epc.Tests\bin\Debug\Epc.Tests.pdb
+C:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\Epc.Tests\bin\Debug\Epc.Data.dll
+C:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\Epc.Tests\bin\Debug\EpcDashboard.exe
+C:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\Epc.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\Epc.Tests\bin\Debug\EntityFramework.dll
+C:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\Epc.Tests\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\Epc.Tests\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\Epc.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\Epc.Tests\bin\Debug\Epc.Data.pdb
+C:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\Epc.Tests\bin\Debug\EpcDashboard.pdb
+C:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\Epc.Tests\bin\Debug\EntityFramework.xml
+C:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\Epc.Tests\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\Epc.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\Epc.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\Epc.Tests\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\Epc.Tests\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\Epc.Tests\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\Epc.Tests\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\Epc.Tests\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\Epc.Tests\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\Epc.Tests\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\Epc.Tests\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+C:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\Epc.Tests\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\Epc.Tests\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\Epc.Tests\obj\Debug\Epc.Tests.dll
+C:\Users\SESA438801\Documents\Visual Studio 2015\Projects\EpcDashboard\Epc.Tests\obj\Debug\Epc.Tests.pdb
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\Epc.Tests\bin\Debug\Epc.Tests.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\Epc.Tests\bin\Debug\Epc.Tests.pdb
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\Epc.Tests\bin\Debug\Epc.Data.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\Epc.Tests\bin\Debug\EpcDashboard.exe
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\Epc.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\Epc.Tests\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\Epc.Tests\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\Epc.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\Epc.Tests\bin\Debug\Epc.Data.pdb
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\Epc.Tests\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\Epc.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\Epc.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\Epc.Tests\obj\Debug\Epc.Tests.csprojResolveAssemblyReference.cache
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\Epc.Tests\obj\Debug\Epc.Tests.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\Epc.Tests\obj\Debug\Epc.Tests.pdb
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\Epc.Tests\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\Epc.Tests\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\Epc.Tests\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\Epc.Tests\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\Epc.Tests\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\Epc.Tests\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\Epc.Tests\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\Epc.Tests\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\Epc.Tests\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\Epc.Tests\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\Epc.Tests\bin\Debug\Resources\LaunchRDP.exe
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\Epc.Tests\bin\Debug\Resources\vnc.exe
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\Epc.Tests\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\Epc.Tests\bin\Debug\Epc.ExternalRunnerDomain.dll
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\Epc.Tests\bin\Debug\Epc.ExternalRunnerDomain.pdb
+C:\Users\SESA438801\Source\Repos\epc\EpcDashboard\Epc.Tests\bin\Debug\EpcDashboard.pdb
